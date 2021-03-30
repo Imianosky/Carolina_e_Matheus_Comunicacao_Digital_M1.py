@@ -1,10 +1,11 @@
-# Arquivo: ComunicacaoDigitalM1
+# Arquivo: ComunicacaoDigitalM1.py
 # Autores: Carolina Imianosky e Matheus Kreutz
-# Criado em 20 de março de 2021 # Modificado em 29 de março de 2021
+# Criado em 20 de março de 2021 
+# Modificado em 29 de março de 2021
 
 import random
 
-#Define os locais dos bits de paridade
+# Define os locais dos bits de paridade
 def definir_locais(data):
     i = 1
     j = 0
@@ -38,7 +39,7 @@ def colocar_Bparidade():
             j += 1                      # vai para o proximo bit a ser inserido
         i += 1
 
-#calcula os bits de paridade
+# calcula os bits de paridade
 def def_BParidade():
     p = 'f'                             # declaração para pegar o primeiro valor
     j = 1                               # j = tamanho do pulo e inicio do laço
@@ -222,7 +223,7 @@ while (menu != 'x'):
         #recebe o valor do dado
         num = verificaBinario(f"\nDigite o valor em binario de tamanho {tam}: ")
         data = [int(x) for x in str(num)]
-        data.append('f')            			            # adiciona um fim
+        data.append('f')            			                    # adiciona um fim
 
         send = []
         bParidade = []
@@ -266,10 +267,16 @@ while (menu != 'x'):
         checksum = bitFlip(resultado, tam)                            # calcula o checksum
         print("\nPalavra de paridade(checksum): " + checksum)
 
-        erro = input("\nDeseja inverter um bit? S/N: \nR: ").lower()  # usuario seleciona se quer inserir erro na palavra
+        erro = input("\nDeseja inverter um bit?"                      # usuario seleciona se quer inserir erro na palavra
+                     "\n 1 - sim "
+                     "\n 2 - nao "
+                     "\nR: ").lower()                                 
         while erro != "s" and erro != "n":
             print("Entrada incorreta, digite novamente.")
-            erro = input("Deseja inverter um bit?\n 1 - sim \n 2 - nao \nR: ")
+            erro = input("\nDeseja inverter um bit?"
+                         "\n 1 - sim "
+                         "\n 2 - nao "
+                         "\nR: ")
 
         r1 = x1                                                       # variaveis das palavras recebidas
         r2 = x2
