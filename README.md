@@ -1,5 +1,5 @@
 # Acadêmicos: Carolina Imianosky (6444830) e Matheus Kreutz (6515312)
-# Comunicao Digital M1
+ Comunicao Digital M1
 
 1) Desenvolver  uma  aplicação  que  permite  realizar Código  Hamming  para uma mensagem  que  contenha  uma  quantidade  de  bits  igual  a  soma  dos  três  últimos números do seu código de aluno e também o Hamming(12,8). Ex: Código de Aluno 0000246 –tem uma mensagem com 2+4+6 = 12 bits. A  solução  deve  permitir  usar palavras  de  dados  quaisquer  e  que  possuam  os tamanhos  indicados. Além  disso,  o  código  deverá  permitir  escolher  qual  versão utilizar. Deverá  ser  implementando  o  detector  e  corretor  de  erro e também o simulador de injeção de erro.
 2) Ainda usando o código de aluno e os três últimos dígitos desse código 
