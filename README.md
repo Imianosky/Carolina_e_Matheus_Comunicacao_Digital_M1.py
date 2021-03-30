@@ -1,1 +1,6 @@
-# ComunicaoDigitalM1
+# Acadêmicos: Carolina Imianosky (6444830) e Matheus Kreutz (6515312)
+# Comunicao Digital M1
+
+1) Desenvolver  uma  aplicação  que  permite  realizar Código  Hamming  para uma mensagem  que  contenha  uma  quantidade  de  bits  igual  a  soma  dos  três  últimos números do seu código de aluno e também o Hamming(12,8). Ex: Código de Aluno 0000246 –tem uma mensagem com 2+4+6 = 12 bits. A  solução  deve  permitir  usar palavras  de  dados  quaisquer  e  que  possuam  os tamanhos  indicados. Além  disso,  o  código  deverá  permitir  escolher  qual  versão utilizar. Deverá  ser  implementando  o  detector  e  corretor  de  erro e também o simulador de injeção de erro.
+2) Ainda usando o código de aluno e os três últimos dígitos desse código 
+     a. Os  alunos  que  tiverem  uma  somados  dígitos  do  código  de  aluno resultando  em  um  número  ímpar  deverão  implementar  o  algoritmo Checksum para  blocos  de 3 palavras  com uma  quantidade  bits  iguais  a soma dos três últimos dígitos do seu Código de Aluno (exemplo igual ao dado no problema 1). Simule, por meio de uma função, a inversão de um bit  de  transmissão  entre  dois  meios  de  comunicaçãoem  uma  das palavras.  A  partir  dessa  inversão,  demonstre  a  efetividade  da  técnica utilizando a soma de verificação que a inversão é detectada.
