@@ -1,4 +1,4 @@
-# Arquivo: ComunicacaoDigitalM1.py
+# Arquivo: Carolina_e_Matheus_Comunicacao_Digital_M1.py
 # Autores: Carolina Imianosky e Matheus Kreutz
 # Criado em 20 de março de 2021 
 # Modificado em 29 de março de 2021
